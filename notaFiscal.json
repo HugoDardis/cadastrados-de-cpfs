@@ -1,0 +1,19 @@
+{
+  "numeroNota":"123",
+  "cnpj":"123456789",
+  "listaProdutos": [
+      {
+        "nome":"produtoX",
+        "preco": 100
+      },
+      {
+        "nome":"produtoY",
+        "preco": 200
+      },
+      {
+        "nome":"produtoZ",
+        "preco": 300
+      }
+  ],
+  "total": 600
+}
