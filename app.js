@@ -12,11 +12,9 @@ const filhos = process.argv.slice(5);
 // Passo 2: Criar um objeto com essas informações
 
 
-const pessoa = {nome, cpf, casado, filhos};
+const pessoa = { nome, cpf, casado, filhos };
 
-//passo 2.5: alteração para teste git
 
-console.log("yahooo!!")
 
 // Passo 3: Adicionar o objeto criado ao array pessoas
 
@@ -24,7 +22,7 @@ pessoas.push(pessoa);
 
 // Passo 4: Salvar o array de pessoas no arquivo pessoas.json
 
-fs.writeFileSync("pessoas.json", JSON.stringify(pessoas,null,4))
+fs.writeFileSync("pessoas.json", JSON.stringify(pessoas, null, 4))
 
 
 // Passo 5: Mostrar o array de pessoas no dormarto de tabela
