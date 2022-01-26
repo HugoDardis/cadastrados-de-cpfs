@@ -11,8 +11,12 @@ const filhos = process.argv.slice(5);
 
 // Passo 2: Criar um objeto com essas informações
 
+
 const pessoa = {nome, cpf, casado, filhos};
 
+//passo 2.5: alteração para teste git
+
+console.log("yahooo!!")
 
 // Passo 3: Adicionar o objeto criado ao array pessoas
 
