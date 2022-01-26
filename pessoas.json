@@ -28,14 +28,5 @@
             "Sérgio",
             "Moraes"
         ]
-    },
-    {
-        "nome": "lela",
-        "cpf": "444.444.444-44",
-        "casado": false,
-        "filhos": [
-            "maria",
-            "joao"
-        ]
     }
 ]
